@@ -1,0 +1,28 @@
+{
+    "name": "mazhenyu/0728",
+    "authors": [
+        {
+            "name": "马震宇",
+            "email": "410004417@qq.com"
+        }
+    ],
+    "require": {
+        "gregwar/captcha": "^1.1"
+    },
+    "autoload":{
+        "files":[
+            "houdunwang/core/functions.php"
+        ],
+        "psr-4":{
+            "houdunwang\\":"houdunwang\\",
+            "app\\":"app",
+            "system\\":"system"
+        }
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
+    }
+}

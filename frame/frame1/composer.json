@@ -1,0 +1,19 @@
+{
+    "name": "mazhenyu/0728",
+    "authors": [
+        {
+            "name": "马震宇",
+            "email": "410004417@qq.com"
+        }
+    ],
+    "require": {},
+    "autoload":{
+        "files":[
+            "houdunwang/core/functions.php"
+        ],
+        "psr-4":{
+            "houdunwang\\":"houdunwang\\",
+            "app\\":"app"
+        }
+    }
+}
