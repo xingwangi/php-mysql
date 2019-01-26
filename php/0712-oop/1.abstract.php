@@ -13,15 +13,18 @@ abstract class Model{
 
 class M extends Model{
     public function get(){
-
+        echo 'get';
     }
 
     public function find($i){
-
+        echo 'find'.$i;
     }
 }
 
+
 $m = new M;
+$m->get();
+$m->find(5);
 $m->display();
 
 
